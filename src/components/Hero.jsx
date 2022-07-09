@@ -1,4 +1,4 @@
-import map from "../images/map.jpeg";
+import map from "../img/Air-BNB.jpeg";
 
 export default function Hero(){
     return (

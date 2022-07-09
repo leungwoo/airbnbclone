@@ -11,7 +11,7 @@ body {
     display: flex;
     padding:10px 20px;
     height:70px;
-    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2.98256px 7.4564px rgba(1, 17, 18, 0.511);
     
 }
 section{
@@ -23,9 +23,9 @@ section{
     flex-direction: column;
 }
 .map{
-    max-width: 800px;
+    width: 400px;
     align-self: center;
-    border-radius: 10px;
+    border-radius: 0px;
     margin-bottom: 32px;
 }
 .title{
@@ -45,3 +45,7 @@ section{
 /* .info{
     max-width: 400px;
 } */
+
+.card--image{
+    max-width: 400px;
+}

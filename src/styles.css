@@ -45,7 +45,51 @@ section{
 /* .info{
     max-width: 400px;
 } */
+.card--list{
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.card {
+    position: relative;
+    width: 200px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+}
+ /* .card--image{
+    transform:  scale(1);
+    transition:transform 0.8s ease;
+}
+.card--image:hover{
+    transform: scale(1.2);
+    
+}
+.overflow{
+    overflow: hidden;
+}   */
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
-.card--image{
-    max-width: 400px;
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
 }
